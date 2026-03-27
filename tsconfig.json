@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "types": ["jest"],
+    "skipLibCheck": true
+  },
+  "include": ["setup.ts"]
+}

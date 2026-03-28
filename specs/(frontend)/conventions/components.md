@@ -13,6 +13,14 @@
 - May use composition pattern (Root/Header/Title/etc.)
 - Examples: `Card.*`, `EventCard`
 
+## UI Package (`packages/ui`)
+- Mesmas restrições dos Dumb components (só props, sem stores, sem hooks além de primitivos React)
+- Sem dependências de nenhum app — não pode importar de `apps/`, `features/`, `shared/` ou `business-core/`
+- Exportados via `packages/ui/src/index.ts`
+- Use quando o componente precisa ser consumido por mais de um app no monorepo
+- Se o componente só faz sentido em `apps/web`, use `shared/components/` em vez disso
+- Examples: `Button`, `Input`, `Modal`
+
 ## Composition Pattern (for shared components)
 When a component has multiple structural parts, export as a namespace object:
 ```typescript

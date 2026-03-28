@@ -14,8 +14,7 @@ The web app follows Clean Architecture: Domain → Application → Infrastructur
 → [/specs/(frontend)/_conventions.md](/specs/(frontend)/_conventions.md)
 
 ### Components
-→ Smart: [/docs/(frontend)/smart-components.md](/docs/(frontend)/smart-components.md)
-→ Dumb: [/docs/(frontend)/dumb-components.md](/docs/(frontend)/dumb-components.md)
+→ [/specs/(frontend)/conventions/components.md](/specs/(frontend)/conventions/components.md)
 
 ### Docs
 → [/docs/(frontend)/code-conventions.md](/docs/(frontend)/code-conventions.md)

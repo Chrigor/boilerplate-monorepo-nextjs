@@ -27,15 +27,15 @@ The web app follows Clean Architecture: Domain → Application → Infrastructur
 → [/docs/(frontend)/api-contracts.md](/docs/(frontend)/api-contracts.md)
 
 ### Skills — read the relevant skill before any frontend task
-→ `/skills/(frontend)/create-component.md` — new React component (smart or dumb)
-→ `/skills/(frontend)/create-spec.md` — new domain entity + repository interface
-→ `/skills/(frontend)/create-controller.md` — controller + infra repo + factory + hook
-→ `/skills/(frontend)/create-repository.md` — infra HTTP repository only
-→ `/skills/(frontend)/create-hook.md` — custom React hook
-→ `/skills/(frontend)/create-schema.md` — Zod schema (controller input or form/UI)
-→ `/skills/(frontend)/create-unit-test.md` — unit tests for any layer
-→ `/skills/(frontend)/domain-analysis.md` — map layers affected by a new feature
-→ `/skills/(frontend)/refactor.md` — check and fix convention violations
+→ `.claude/skills/create-component/SKILL.md` — new React component (smart or dumb)
+→ `.claude/skills/create-spec/SKILL.md` — new domain entity + repository interface
+→ `.claude/skills/create-controller/SKILL.md` — controller + infra repo + factory + hook
+→ `.claude/skills/create-repository/SKILL.md` — infra HTTP repository only
+→ `.claude/skills/create-hook/SKILL.md` — custom React hook
+→ `.claude/skills/create-schema/SKILL.md` — Zod schema (controller input or form/UI)
+→ `.claude/skills/create-unit-test/SKILL.md` — unit tests for any layer
+→ `.claude/skills/domain-analysis/SKILL.md` — map layers affected by a new feature
+→ `.claude/skills/refactor/SKILL.md` — check and fix convention violations
 
 ---
 
